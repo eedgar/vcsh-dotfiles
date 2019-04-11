@@ -6,7 +6,7 @@ dotfiles with [vcsh][1]. It sets up [vcsh][1], [mr][2], adds usable hooks and
 lays down simple directory that vcsh repositories can follow.
 
 It is inspired by the bootstrap script in [vdemeester/vcsh-home][3] repository.
-You can check [ek9/dotfiles][10] for various repositories that use
+You can check [eedgar/dotfiles][10] for various repositories that use
 [vcsh-dotfiles][0].
 
 ## Features
@@ -35,7 +35,7 @@ You can check [ek9/dotfiles][10] for various repositories that use
 
 Run `vcsh-dotfiles bootstrap` via this `curl` one-liner:
 
-    $ curl https://raw.githubusercontent.com/ek9/vcsh-dotfiles/master/.local/bin/vcsh-dotfiles | bash -s bootstrap
+    $ curl https://raw.githubusercontent.com/eedgar/vcsh-dotfiles/master/.local/bin/vcsh-dotfiles | bash -s bootstrap
 
 Source `~/.profile` to make sure `PATH` is updated:
 
@@ -49,7 +49,7 @@ Run `mr update` to verify the boostrap:
 
 You can use `vcsh-dotfiles` to clone vcsh repositories:
 
-    $ vcsh-dotfiles clone https://github.com/ek9/shell-config
+    $ vcsh-dotfiles clone https://github.com/eedgar/shell-config
 
 `vcsh-dotfiles` supports the following commands:
 
@@ -61,15 +61,16 @@ You can use `vcsh-dotfiles` to clone vcsh repositories:
 
 Examples:
 
-    $ vcsh-dotfiles clone https://github.com/ek9/shell-config
+    $ vcsh-dotfiles clone https://github.com/eedgar/shell-config
     $ vcsh-dotfiles verify
     $ vcsh-dotfiles help
 
-You can check [ek9/dotfiles][10] for various repositories that use
+You can check [eedgar/dotfiles][10] for various repositories that use
 [vcsh-dotfiles][0].
 
 ## Authors
 
+Copyright (c) 2019 eedgar <rocketman110@gmail.com>
 Copyright (c) 2016-2017 ek9 <dev@ek9.co> (https://ek9.co).
 
 Copyright (c) 2011-2015 Vincent Demeester for portions of code from

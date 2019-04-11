@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-## ek9/vcsh-doftiles - https://github.com/ek9/vcsh-dotfiles
+## eedgar/vcsh-doftiles - https://github.com/eedgar/vcsh-dotfiles
 ## vcsh-dotfiles
 ## vcsh-dotfiles is a generic script which aims to simplify managing your
 ## dotfiles by setting up useful hooks for vcsh and configuring mr to be
@@ -39,7 +39,7 @@ test -z "$USER" && fatal '$USER not set; exiting' 1
 
 ## Variables
 SELF="$(basename $0)"
-SELF_URL="https://github.com/ek9/vcsh-dotfiles"
+SELF_URL="https://github.com/eedgar/vcsh-dotfiles"
 VCSH_URL="https://raw.githubusercontent.com/RichiH/vcsh/master/vcsh"
 MR_URL="https://git.joeyh.name/git/myrepos.git/"
 HOMEBIN="$HOME/.local/bin"
